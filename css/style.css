@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1333px;
+    margin: 0 auto;
+
+}
+.open_sens{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.font_14{
+    font-size: 14px;
+}
+
+.font_15{
+    font-size: 15px;
+}
+
+.font_18{
+    font-size: 18px;
+}
+
+.font_19{
+    font-size: 19px;
+}
+
+.font_17{
+    font-size: 17px;
+}
+
+.font_22{
+    font-size: 22px;
+}
+
+.font_36{
+    font-size: 36px;
+}
+
+.font_20{
+    font-size: 20px;
+}
+
+.font_96{
+    font-size: 96px;
+}
+
+.font_48{
+    font-size: 48px;
+}
+
+.font_64{
+    font-size: 64px;
+}
+
+.font_88{
+    font-size: 88px;
+}
+
+.SemiBold_font{
+    font-weight: 600;
+}
+.Bold_font{
+    font-weight: 700;
+}
+.Regular_font{
+    font-weight: 400;
+}
+.flex{
+    display: flex;
+}
+/* common css end */
+/* nav css start */
+.logo{
+    width: 15%;
+    text-align: center;
+}
+#nav{
+    width: 100%;
+    position: absolute;
+}
+
+nav label{
+    display: none;
+}
+nav input{
+    display: none;
+}
+
+.nav_item{
+    width: 85%;
+    
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+#nav .nav_item .flex{
+    
+    column-gap: 16px;
+    color: #FFFFFF;
+}
+
+
+/* nav css end */
+/* banner css start */
+
+#banner .container .banner_text{
+    position: absolute;
+    left: 337px;
+    top: 428px;
+} 
+
+#banner{
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 428px 0;
+} 
+
+#banner .container .banner_text h1{
+    color: #FFC178;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#banner .container .banner_text h2{
+    color: #FFFFFF;
+    padding-top: 37px;
+
+}
+
+#banner .container .banner_text h3{
+    color: #FFFFFF;
+
+}
+
+/* banner css end */
+/* hollidy css start */
+
+.hollidy{
+    background: #000;
+    padding-top: 265px;
+
+}
+.hollidy .flex{
+    column-gap: 139px;
+
+    
+}
+
+.hollidy .flex .holi_img{
+    width: 50%;
+    
+}
+
+.hollidy .flex .holi_img img{
+    width: 100%;
+    padding: 20px 0;
+}
+
+.hollidy .flex .holi_text{
+    width: 50%;
+    padding-top: 78px;
+}
+
+.hollidy .flex .holi_text h2{
+    color: #FBD784;
+    letter-spacing: 3px;
+    width: 303px;
+    
+    
+}
+
+.hollidy .flex .holi_text h3{
+    color: #ffff;
+    text-transform: uppercase;
+    width: 496px;
+    padding-top: 13px;
+}
+
+.hollidy .flex .holi_text p{
+    color: #ffff;
+    text-transform: uppercase;
+    width: 587px;
+    padding-top: 13px;
+}
+
+.hollidy .flex .holi_text a{
+    color: #FBD784;
+    text-transform: uppercase;
+    width: 106px;
+    padding-top: 66px;
+    
+}
+
+/* holliday css end */
+/* sdty css start */
+.service{
+    padding-top: 296px;
+    background-color: #000;
+}
+.service .stdy_main{
+    width: 1320px;
+    position: relative;
+}
+
+.service .stdy_main .stady_text{
+    width: 932px;
+   
+}
+
+.service .stdy_main .stady_text{
+    position: absolute;
+    left: 194px;
+    bottom: 32px;
+}
+
+.service .stdy_main .stady_text h2{
+    width: 94px;
+    color: #FBD784;
+    text-transform: uppercase;
+}
+
+
+.service .stdy_main .stady_text h3{
+    width: 932px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 13px;
+}
+
+
+.service .stdy_main .stady_text p{
+    width: 893px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 14px;
+}
+
+
+.ankor {
+text-align: center;
+}
+
+.ankor a {
+    
+    color: #FBD784;
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+/* stdy css end */
+/* culture css start */
+
+.culture{
+    background-color: #000000;
+    padding-top: 248px;
+}
+.culture .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 37px;
+    justify-content: center;
+}
+
+.culture .flex .culture_text{
+    width: 50%;
+}
+
+.culture .flex .culture_text h2{
+    width: 304px;
+    color: #FBD784;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-top: 19px;
+}
+
+.culture .flex .culture_text h3{
+    width: 663px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 19px;
+}
+
+.culture .flex .culture_text a{
+    width: 106px;
+    color: #FBD784;
+    text-transform: uppercase;
+    padding-top: 162px;
+}
+
+
+.culture .flex .culture_text p{
+    width: 665px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.culture .flex .culture_img{
+    width: 50%;
+}
+
+.culture .flex .culture_img img{
+    width: 100%;
+    display: block;
+}
+
+
+/* culture css end */
+
+/* footer css start */
+
+.footer{
+    background-color: #000000;
+    padding-top: 199px;
+}
+.footer .flex{
+    justify-content: space-between;
+}
+
+.footer .flex .footer_itema{
+    width: 25%;
+    
+}
+
+.footer .flex .footer_itemb{
+    width: 22%;
+    
+}
+
+.footer .flex .footer_itemc{
+    width: 22%;
+    
+}
+
+.footer .flex .footer_itemc{
+    width: 22%;
+    
+}
+
+.footer .flex .footer_itema h2{
+    width: 173px;
+    color: #fff;
+    
+}
+
+.footer .flex .footer_itema h3{
+    width: 405px;
+    padding-top: 82px;
+    color: #FFFFFF;
+}
+
+
+.footer .flex .footer_itema .flex{
+    column-gap: 94px;
+    padding-top: 49px;
+}
+
+
+.footer .flex .footer_itema .flex p{
+    width: 139px;
+    color: #FFFFFF;
+}
+
+
+.footer .flex .footer_itema .flex span{
+    width: 94px;
+    color: #FFFFFF;
+}
+.footer .flex .footer_itemb{
+    padding-top: 126px;
+    padding-left: 227px;
+}
+
+.footer .flex .footer_itemnc{
+    
+    padding-left: 132px;
+}
+
+.footer .flex .footer_itemnc h5{
+    
+    width: 183px;
+    color: #FFFFFF;
+}
+
+.footer .flex .footer_itemnc .footer_itemc_left{
+    
+    padding-top: 91px;
+}
+
+.footer .flex .footer_itemnc .footer_itemc_left p{
+    
+    color: #FBD784;
+}
+
+.footer .flex .footer_itemnc a{
+    width: 98px;
+    color: #FFFFFF;
+    padding: 18px 67px;
+    background-color: #FBD784;
+    margin-top: 5px;
+}
+
+.footer .flex .footer_itemnc  ul{
+    
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+
+.footer .flex .footer_itemb p{
+    color: #FFD1A0;
+
+}
+
+
+.footer .flex .footer_itemb ul{
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.footer .copyright{
+    text-align: center;
+}
+
+
+.footer .copyright h4{
+    color: #FFFFFF;
+}
+
+/* footer css end */
